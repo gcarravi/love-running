@@ -25,7 +25,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width:100%;
+    width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
@@ -38,7 +38,32 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#252525;
+    color: #252525;
+}
+
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0px;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 /* Main Content */
@@ -51,18 +76,4 @@ main {
 /* Footer */
 footer {
     background-color: orange;
-}
-
-#menu {
-    letter-spacing: 4px;
-    font-size: 110%;
-    list-style-type: none;
-}
-
-#menu > li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
 }
