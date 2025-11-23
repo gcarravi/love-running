@@ -180,6 +180,7 @@ hr {
     font-size: 160%;
 }
 
+/* Meetup Times section */
 #times {
     background: url(../images/dublin-city.jpg) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
@@ -201,6 +202,7 @@ hr {
 }
 
 #times h3 {
+    /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
