@@ -202,6 +202,31 @@ hr {
     line-height: 0;
 }
 
+/* Signup form */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow:1;
+    margin: 20px;
+}
+
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding:30px;
+}
+
 
 /* Footer */
 #social-networks {
